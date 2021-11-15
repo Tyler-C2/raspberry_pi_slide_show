@@ -1,0 +1,11 @@
+[Unit]
+Description=slideshow Project
+After=network.target
+
+[Service]
+WorkingDirectory=/home/pi/slideshow_app/
+ExecStart=/usr/bin/python3 /home/pi/slideshow_app/app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
