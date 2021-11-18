@@ -1,7 +1,7 @@
 # Raspberry Pi slide show kiosk setup
 * notes
     * a video.jpg needs to be in your image folder to display the weather widget. 
-    * to stop services enter 
+    * to stop services enter in terminal
         > sudo systemctl stop kiosk.service
 
         > sudo systemctl stop slide_project.service
